@@ -1,0 +1,20 @@
+# Config file for UUID Watcher
+wipe:
+    # If true, will try to zero out player's balance via vault in all worlds
+    vault: true
+
+    # Custom balance zeroing via console command. [playername] is substituted
+    balance:
+    - eco reset [playername]
+
+    # Will remove this player from any world guard regions
+    worldguard: false
+
+    # Commands to remove permissions and group affiliations
+    # [playername] and [oldUUID] will be substituted
+    perms:
+    - pex user [playername] delete
+    - pex user [playername] group set Newbie
+
+# Player name and UUID's are stored here.
+players:

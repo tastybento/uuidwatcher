@@ -1,0 +1,6 @@
+name: UUIDWatcher
+main: com.wasteofplastic.uuidwatcher.UUIDWatcher
+version: 0.1
+description: Watches for players who have changed their name and wipes info on the server if that happens
+author: Tastybento
+depend: [Vault]
